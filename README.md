@@ -15,8 +15,14 @@ IMDbPY
 To run the Movie Recommendation System on your local machine, follow these steps:
 
 Clone this repository.
-Install the required libraries using pip install -r requirements.txt.
-Run the Streamlit app with streamlit run app.py.
+Install the required libraries using 
+```
+pip install -r requirements.txt.
+```
+Run the Streamlit app with 
+```
+streamlit run app.py.
+```
 🤝 Contributing:
 We welcome contributions from the open-source community!
 
