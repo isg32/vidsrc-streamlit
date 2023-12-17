@@ -1,5 +1,5 @@
 import requests
-import imdb
+from imdb import Cinemagoer
 import streamlit as sl
 
 sl.write("> Welcome! To isg32's Vidsrc Worker")
@@ -8,8 +8,8 @@ def xlol():
     movie = sl.text_input("Enter the movie name:")
     search_button = sl.button("Search")
 
-    if search_button and movie:
-        ia = imdb.IMDb()
+    if search_button and movie or movie:
+        ia = Cinemagoer()
         results = ia.search_movie(movie)
         #sl.write(results)
 
@@ -34,8 +34,8 @@ def ylol():
     movie = sl.text_input("Enter the Tv Series name:")
     search_button = sl.button("Search")
 
-    if search_button and movie:
-        ia = imdb.IMDb()
+    if search_button and movie or movie:
+        ia = Cinemagoer()
         results = ia.search_movie(movie)
         #sl.write(results)
 
