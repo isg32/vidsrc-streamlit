@@ -26,7 +26,7 @@ __This Movie Search System is a Python-based application that leverages natural 
 We welcome contributions from the open-source community!
 
 ### 📧 Contact:
-For questions or feedback, you can reach out to us at [sapangajjar101105@gmail.com](sapangajjar101105@gmail.com).
+For questions or feedback, you can reach out to me at [sapangajjar101105@gmail.com](sapangajjar101105@gmail.com).
 
 ### 🙏 Acknowledgments:
 We extend our gratitude to the creators of the IMDbPY library API for their invaluable data and resources.
